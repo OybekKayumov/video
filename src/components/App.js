@@ -29,11 +29,22 @@ class App extends React.Component {
         <SearchBar onFormSubmit={this.onTermSubmit} />
 
         I have {this.state.videos.length} videos.
-        <VideoDetail video={this.state.selectedVideo}/>
-        <VideoList 
-          videos={this.state.videos} 
-          onVideoSelect={this.onVideoSelect} 
-        />
+
+        <div className="ui grid">
+          <div className="ui row">
+            <div className='eleven wide column'>
+              <VideoDetail video={this.state.selectedVideo}/>
+            </div>
+
+            <div className="five wide column">
+              <VideoList 
+                videos={this.state.videos} 
+                onVideoSelect={this.onVideoSelect} 
+              />
+            </div>
+          </div>
+        </div>
+
       </div>
     )
   }
