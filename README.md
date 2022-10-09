@@ -22,3 +22,7 @@ Your app is ready to be deployed!
 ### Deployment
 
 ### `npm run build` 
+
+![image](https://user-images.githubusercontent.com/85465559/194752057-4baac731-0159-45d5-b25f-1facb537be3b.png)
+
+![image](https://user-images.githubusercontent.com/85465559/194752108-4104ff97-b3da-430e-ae23-2353ea9cd3d1.png)
